@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>737</width>
+    <height>509</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+position: relative;
+width: 737px;
+height: 484px;
+
+background: #000000;
+
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>171</x>
+      <y>431</y>
+      <width>395</width>
+      <height>54</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* button */
+
+position: absolute;
+width: 395px;
+height: 54px;
+left: 171px;
+top: 431px;
+
+
+
+/* Rectangle 3 */
+
+position: absolute;
+width: 395px;
+height: 52px;
+left: 171px;
+top: 433px;
+
+background: #24BAFF;
+border-radius: 8px;
+
+
+/* Приступить! */
+
+position: absolute;
+width: 392px;
+height: 53px;
+left: 174px;
+top: 431px;
+
+font-family: 'Inder';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 51px;
+/* or 212% */
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+</string>
+    </property>
+    <property name="text">
+     <string>Приступить!</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>195</x>
+      <y>56</y>
+      <width>348</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* Просто текстовая аннотация */
+
+position: absolute;
+width: 348px;
+height: 62px;
+left: 195px;
+top: 56px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* or 121% */
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+
+</string>
+    </property>
+    <property name="text">
+     <string>Просто текстовая аннотация
+</string>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>76</x>
+      <y>114</y>
+      <width>622</width>
+      <height>305</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* Как в лицинзионном соглашениии */
+
+position: absolute;
+width: 622px;
+height: 305px;
+left: 76px;
+top: 114px;
+
+font-family: 'Italianno';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 4px;
+/* or 24% */
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+
+opacity: 0.76;
+</string>
+    </property>
+    <property name="text">
+     <string>Как в лицинзионном соглашениии</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

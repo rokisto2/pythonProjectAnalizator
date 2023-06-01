@@ -59,100 +59,116 @@ class Сalculator:
         self.pineGirth = None
         self.pineCount = None
         self.sum = 0
-        self.pineStake = 150.84
-        self.larchesStake = 120.78
-        self.spruceStake = 136.44
-        self.oakStake = 566.82
-        self.beechStake = 1100
-        self.birchStake = 75.78
-        self.alderStake = 45
-        self.aspenStake = 14.4
-        self.otherTrees25Stake = 10782
-        self.otherTrees125Stake = 3212
-        self.otherTreesStake = 808
-        self.lichenStake = 22500
-        self.treeStake = 75000
+        self.pineStake = 150.84 #СТАВКА ЗА 1 ПЛОТНЫЙ М³ сосен
+        self.larchesStake = 120.78 #СТАВКА ЗА 1 ПЛОТНЫЙ М³ лиственниц
+        self.spruceStake = 136.44#СТАВКА ЗА 1 ПЛОТНЫЙ М³ елей и пихт
+        self.oakStake = 566.82 #СТАВКА ЗА 1 ПЛОТНЫЙ М³ дубов, ясеней и клёнов
+        self.beechStake = 1100 #СТАВКА ЗА 1 ПЛОТНЫЙ М³ буков
+        self.birchStake = 75.78 #СТАВКА ЗА 1 ПЛОТНЫЙ М³ берёз
+        self.alderStake = 45 #СТАВКА ЗА 1 ПЛОТНЫЙ М³ ольхи черной, грабов, вязов и лип
+        self.aspenStake = 14.4 #СТАВКА ЗА 1 ПЛОТНЫЙ М³ ольхи белой и тополей выше
+        self.otherTrees25Stake = 10782 #СТАВКА ЗА 1 ПЛОТНЫЙ М³ остальных деревьев (включая краснокнижные виды) выше 2,5
+        self.otherTrees125Stake = 3212 #СТАВКА ЗА 1 ПЛОТНЫЙ М³ остальных деревьев (включая краснокнижные виды) выше от 1 до 1.25
+        self.otherTreesStake = 808 #СТАВКА ЗА 1 ПЛОТНЫЙ М³ остальных деревьев (включая краснокнижные виды) до 1
+        self.lichenStake = 22500 #СТАВКА ЗА 1 ПЛОТНЫЙ М³ мест произрастания лишайниковых форм растений
+        self.treeStake = 75000 #СТАВКА ЗА 1 ПЛОТНЫЙ М³ мест произрастания древесных форм растений
+        self.soilStake  =4700 #СТАВКА ЗА 1 ПЛОТНЫЙ М³ нарушеной земели
+
+    # рассчет сумм сосен
     def addPine(self, count, height, girth):
         self.pineCount = count
         self.pineHeight = height
         self.pineGirth = girth
-        self.pineArea = girth / 3.14 * count * height
-        self.pineSum = self.pineStake * self.pineArea
+        self.pineArea = girth / 3.14 * count * height #расчет обьема
+        self.pineSum = self.pineStake * self.pineArea #расчет ценны
 
+    # рассчет сумм лиственниц
     def addLarches(self, count, height, girth):
         self.larchesCount = count
         self.larchesHeight = height
         self.larchesGirth = girth
-        self.larchesArea = girth / 3.14 * count * height
-        self.larchesSum = self.larchesArea * self.larchesStake
+        self.larchesArea = girth / 3.14 * count * height #расчет обьема
+        self.larchesSum = self.larchesArea * self.larchesStake  #расчет ценны
 
+    # рассчет сумм елей и пихт
     def addSpruce(self, count, height, girth):
         self.spruceCount = count
         self.spruceHeight = height
         self.spruceGirth = girth
-        self.spruceArea = girth / 3.14 * count * height
-        self.spruceSum = self.spruceArea * self.spruceStake
+        self.spruceArea = girth / 3.14 * count * height #расчет обьема
+        self.spruceSum = self.spruceArea * self.spruceStake  #расчет ценны
 
+    # рассчет сумм дубов, ясеней и клёнов
     def addOak(self, count, height, girth):
         self.oakCount = count
         self.oakHeight = height
         self.oakGirth = girth
-        self.oakArea = girth / 3.14 * count * height
-        self.oakSum = self.oakArea * self.oakStake
+        self.oakArea = girth / 3.14 * count * height #расчет обьема
+        self.oakSum = self.oakArea * self.oakStake  #расчет ценны
 
+    # рассчет сумм буков
     def addBeeches(self, count, height, girth):
         self.beechCount = count
         self.beechHeight = height
         self.beechGirth = girth
-        self.beechArea = girth / 3.14 * count * height
-        self.beechSum = self.beechArea * self.beechStake
+        self.beechArea = girth / 3.14 * count * height #расчет обьема
+        self.beechSum = self.beechArea * self.beechStake  #расчет ценны
 
+    # рассчет сумм берёз
     def addBirch(self, count, height, girth):
         self.birchCount = count
         self.birchHeight = height
         self.birchGirth = girth
-        self.birchArea = girth / 3.14 * count * height
-        self.birchSum = self.birchArea * self.birchStake
+        self.birchArea = girth / 3.14 * count * height #расчет обьема
+        self.birchSum = self.birchArea * self.birchStake  #расчет ценны
 
+    # рассчет сумм ольхи черной, грабов, вязов и лип
     def addAlder(self, count, height, girth):
         self.alderCount = count
         self.alderHeight = height
         self.alderGirth = girth
-        self.alderArea = girth / 3.14 * count * height
-        self.alderSum = self.alderArea * self.alderStake
+        self.alderArea = girth / 3.14 * count * height #расчет обьема
+        self.alderSum = self.alderArea * self.alderStake  #расчет ценны
 
+    # рассчет сумм ольхи белой и тополей выше
     def addAspen(self, count, height, girth):
         self.aspenCount = count
         self.aspenHeight = height
         self.aspenGirth = girth
-        self.aspenArea = girth / 3.14 * count * height
-        self.aspenSum = self.aspenArea * self.aspenStake
+        self.aspenArea = girth / 3.14 * count * height #расчет обьема
+        self.aspenSum = self.aspenArea * self.aspenStake  #расчет ценны
 
+    # рассчет сумм остальных деревьев (включая краснокнижные виды) выше 2,5
     def addOtherTrees25(self, count):
         self.otherTreesCount25 = count
-        self.otherTreesSum25 = self.aspenArea * self.otherTrees25Stake
+        self.otherTreesSum25 = self.aspenArea * self.otherTrees25Stake   #расчет ценны
 
+    # рассчет сумм остальных деревьев (включая краснокнижные виды) выше от 1 до 1.25
     def addOtherTrees125(self, count):
         self.otherTreesCount125 = count
-        self.otherTreesSum125 = self.aspenArea * self.otherTrees125Stake
+        self.otherTreesSum125 = self.aspenArea * self.otherTrees125Stake  #расчет ценны
 
+    # рассчет сумм #СТАВКА ЗА 1 ПЛОТНЫЙ М³ остальных деревьев (включая краснокнижные виды) до 1
     def addOtherTrees(self, count):
         self.otherTreesCount = count
-        self.otherTreesSum = self.aspenArea * self.otherTreesStake
+        self.otherTreesSum = self.aspenArea * self.otherTreesStake  #расчет ценны
 
+    # рассчет сумм мест произрастания лишайниковых форм растений
     def addLichen(self, area):
         self.lichenArea = area
-        self.lichenSum = self.lichenArea * self.lichenStake
+        self.lichenSum = self.lichenArea * self.lichenStake  #расчет ценны
 
+    # рассчет мест произрастания древесных форм растений
     def addTree(self, area):
         self.treeArea = area
-        self.treeSum = self.treeArea * self.treeStake/10000
+        self.treeSum = self.treeArea * self.treeStake/10000  #расчет ценны
 
+    # рассчет сумм нарушеной земели
     def addSoil(self, area):
         self.soilArea = area
-        self.soilSum = self.soilArea * self.soilStake
+        self.soilSum = self.soilArea * self.soilStake  #расчет ценны
 
-    def calculate(self):
+    def calculate(self):#рассчет всех сумм для вывода
         self.sum = self.pineSum + self.lichenSum+self.spruceSum+self.oakSum+self.beechSum+self.birchSum+self.alderSum+self.aspenSum+self.otherTrees25Stake+self.otherTreesSum125+self.otherTreesSum+self.lichenSum+self.treeSum+self.soilSum
         self.sumTree = self.treeSum + self.pineSum + self.lichenSum+self.spruceSum+self.oakSum+self.beechSum+self.birchSum+self.alderSum+self.aspenSum+self.otherTrees25Stake+self.otherTreesSum125+self.otherTreesSum
         self.sumTree125 = self.otherTreesSum125

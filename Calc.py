@@ -177,4 +177,6 @@ class Сalculator:
         self.recoveryLichen = self.lichenSum
         self.recoverySoil = self.soilSum
 
+    def get_project(self):
+        return [self.sum, self.sumTree, self.sumTree125, self.sumTree1, self.recovery, self.recoveryLichen, self.recoverySoil]
 

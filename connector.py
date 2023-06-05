@@ -24,6 +24,7 @@ class Data:
 
         query.exec()
 
+
     def add_project(self, date):
         sql_query = "INSERT INTO project (Allsum, sumTree, sumTree125, sumTree1, recovery, recoveryLichen, recoverySoil) VALUES (?, ?, ?, ?, ?, ?, ?)"
         self.execute_query(sql_query, date)

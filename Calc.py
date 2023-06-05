@@ -1,5 +1,20 @@
 class Сalculator:
     def __init__(self):
+        self.pixtSum = None
+        self.pixtGirth = None
+        self.pixtArea = None
+        self.pixtCount = None
+        self.pixtHeight = None
+        self.larchesArea = None
+        self.larchesSum = None
+        self.larchesGirth = None
+        self.larchesHeight = None
+        self.larchesCount = None
+        self.sosnaHeight = None
+        self.sosnaSum = None
+        self.sosnaArea = None
+        self.sosnaGirth = None
+        self.sosnaCount = None
         self.sum = 0
         self.sosnaStake = 150.84  # СТАВКА ЗА 1 ПЛОТНЫЙ М³ сосен
         self.larchesStake = 120.78  # СТАВКА ЗА 1 ПЛОТНЫЙ М³ лиственниц
@@ -23,6 +38,8 @@ class Сalculator:
         self.sosnaGirth = girth
         self.sosnaArea = girth / 3.14 * count * height  # расчет обьема
         self.sosnaSum = self.sosnaStake * self.sosnaArea  # расчет ценны
+        print(self.sosnaSum)
+
 
     # рассчет сумм лиственниц
     def addLarches(self, count, height, girth):
@@ -111,8 +128,8 @@ class Сalculator:
         self.soilSum = self.soilArea * self.soilStake  # расчет ценны
 
     def calculate(self):  # рассчет всех сумм для вывода
-        self.sum = self.sosnaSum + self.lichenSum + self.spruceSum + self.dubSum + self.bukSum + self.berezSum + self.lipSum + self.topolSum + self.otherTrees25Stake + self.otherTreesSum125 + self.otherTreesSum + self.lichenSum + self.treeSum + self.soilSum
-        self.sumTree = self.treeSum + self.sosnaSum + self.lichenSum + self.spruceSum + self.dubSum + self.bukSum + self.berezSum + self.lipSum + self.topolSum + self.otherTrees25Stake + self.otherTreesSum125 + self.otherTreesSum
+        self.sum = self.sosnaSum + self.lichenSum + self.pixtSum + self.dubSum + self.bukSum + self.berezSum + self.lipSum + self.topolSum + self.otherTreesSum25 + self.otherTreesSum125 + self.otherTreesSum + self.lichenSum + self.treeSum + self.soilSum
+        self.sumTree = self.treeSum + self.sosnaSum + self.lichenSum + self.pixtSum + self.dubSum + self.bukSum + self.berezSum + self.lipSum + self.topolSum + self.otherTreesSum25 + self.otherTreesSum125 + self.otherTreesSum
         self.sumTree125 = self.otherTreesSum125
         self.sumTree1 = self.otherTreesSum
         self.recovery = self.treeSum * self.treeArea

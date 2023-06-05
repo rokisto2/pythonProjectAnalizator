@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1300</width>
+    <height>918</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1300</width>
+      <height>918</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="res.qrc">:/fon/resurce/2.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>338</width>
+      <height>916</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* Rectangle 2 */
+
+position: absolute;
+width: 338px;
+height: 916px;
+left: 0px;
+top: 0px;
+
+background: #009158;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>177</y>
+      <width>338</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="tabletTracking">
+     <bool>false</bool>
+    </property>
+    <property name="acceptDrops">
+     <bool>false</bool>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* Rectangle 4 */
+
+position: absolute;
+width: 338px;
+height: 80px;
+left: 0px;
+top: 177px;
+
+background: #007743;
+
+/* Связаться с разработчиками */
+
+position: absolute;
+width: 330px;
+height: 74px;
+left: 8px;
+top: 818px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 33px;
+text-align: center;
+
+color: #FFFFFF;
+
+</string>
+    </property>
+    <property name="text">
+     <string>Создать проект</string>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/fon/resurce/Добавить проект.svg</normaloff>:/fon/resurce/Добавить проект.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>803</y>
+      <width>338</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Inter</family>
+      <pointsize>-1</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* Rectangle 6 */
+
+position: absolute;
+width: 338px;
+height: 104px;
+left: 0px;
+top: 810px;
+
+background: #009158;
+/* Связаться с разработчиками */
+
+position: absolute;
+width: 330px;
+height: 74px;
+left: 8px;
+top: 818px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 33px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>Связаться с разработчиками</string>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/fon/resurce/Написать разработчику.svg</normaloff>:/fon/resurce/Написать разработчику.svg</iconset>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="autoRepeat">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>253</y>
+      <width>338</width>
+      <height>65</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* Rectangle 6 */
+
+position: absolute;
+width: 338px;
+height: 104px;
+left: 0px;
+top: 810px;
+
+background: #009158;
+/* Связаться с разработчиками */
+
+position: absolute;
+width: 330px;
+height: 74px;
+left: 8px;
+top: 818px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 33px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/fon/resurce/Созданный_проект_Монтажная_область_1.svg</normaloff>:/fon/resurce/Созданный_проект_Монтажная_область_1.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_9">
+    <property name="geometry">
+     <rect>
+      <x>479</x>
+      <y>767</y>
+      <width>700</width>
+      <height>98</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* Button */
+
+position: absolute;
+width: 700px;
+height: 98px;
+left: 479px;
+top: 767px;
+
+
+
+/* Rectangle 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 700px;
+height: 98px;
+left: calc(50% - 700px/2 + 171.5px);
+top: 767px;
+
+background: #009158;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 13px;
+
+
+/* Рассчитать */
+
+position: absolute;
+width: 353px;
+height: 46px;
+left: 695px;
+top: 791px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 44px;
+line-height: 53px;
+text-align: center;
+
+color: #FFFFFF;
+
+</string>
+    </property>
+    <property name="text">
+     <string>Далее</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>80</y>
+      <width>871</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: 'Inter';
+background-color: rgba(255, 255, 255, 0);
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 33px;
+text-align: center;
+
+color: #FFFFFF;
+</string>
+    </property>
+    <property name="text">
+     <string>Количество сосен выше 2,5 метров в высоту</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>170</y>
+      <width>411</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>220</y>
+      <width>841</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: 'Inter';
+background-color: rgba(255, 255, 255, 0);
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 33px;
+text-align: center;
+
+color: #FFFFFF;
+</string>
+    </property>
+    <property name="text">
+     <string>Средняя высота сосен выше 2,5 метров</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>320</y>
+      <width>411</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>380</y>
+      <width>921</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: 'Inter';
+background-color: rgba(255, 255, 255, 0);
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 33px;
+text-align: center;
+
+color: #FFFFFF;
+</string>
+    </property>
+    <property name="lineWidth">
+     <number>1</number>
+    </property>
+    <property name="text">
+     <string>Средний обхват ствола сосен выше 2,5 метров (на высоте 1,3 метра от шейки корня)</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>470</y>
+      <width>411</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>121</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="res.qrc">:/fon/resurce/Лого.svg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>50</y>
+      <width>141</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* Rectangle 6 */
+
+position: absolute;
+width: 338px;
+height: 104px;
+left: 0px;
+top: 810px;
+
+background: #009158;
+/* Связаться с разработчиками */
+
+position: absolute;
+width: 330px;
+height: 74px;
+left: 8px;
+top: 818px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 33px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>Вудро 1.0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>30</y>
+      <width>0</width>
+      <height>0</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 0);
+position: absolute;
+width: 353px;
+height: 46px;
+left: 695px;
+top: 791px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 53px;
+text-align: center;
+
+color: #FFFFFF;</string>
+    </property>
+    <property name="text">
+     <string>Итоговый ущерб растительности</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>140</y>
+      <width>0</width>
+      <height>0</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 0);
+position: absolute;
+width: 353px;
+height: 46px;
+left: 695px;
+top: 791px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 53px;
+text-align: center;
+
+color: #FFFFFF;</string>
+    </property>
+    <property name="text">
+     <string>Ущерб древесным насаждениям</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>240</y>
+      <width>0</width>
+      <height>0</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 0);
+position: absolute;
+width: 353px;
+height: 46px;
+left: 695px;
+top: 791px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 53px;
+text-align: center;
+
+color: #FFFFFF;</string>
+    </property>
+    <property name="text">
+     <string>Ущерб подросту растений</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>340</y>
+      <width>0</width>
+      <height>0</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 0);
+position: absolute;
+width: 353px;
+height: 46px;
+left: 695px;
+top: 791px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 53px;
+text-align: center;
+
+color: #FFFFFF;</string>
+    </property>
+    <property name="text">
+     <string>Ущерб саженцам растений</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>440</y>
+      <width>0</width>
+      <height>0</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 0);
+position: absolute;
+width: 353px;
+height: 46px;
+left: 695px;
+top: 791px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 53px;
+text-align: center;
+
+color: #FFFFFF;</string>
+    </property>
+    <property name="text">
+     <string>Необходимо для восстановления растительности на территории</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>540</y>
+      <width>0</width>
+      <height>0</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 0);
+position: absolute;
+width: 353px;
+height: 46px;
+left: 695px;
+top: 791px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 53px;
+text-align: center;
+
+color: #FFFFFF;</string>
+    </property>
+    <property name="text">
+     <string>Восстановление мест произрастания лишайниковых форм 
+растительности</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>640</y>
+      <width>0</width>
+      <height>0</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 0);
+position: absolute;
+width: 353px;
+height: 46px;
+left: 695px;
+top: 791px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 53px;
+text-align: center;
+
+color: #FFFFFF;</string>
+    </property>
+    <property name="text">
+     <string>Необходимо для рекультивации нарушенных земель</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>pushButton_2</zorder>
+   <zorder>pushButton_3</zorder>
+   <zorder>pushButton_9</zorder>
+   <zorder>label_3</zorder>
+   <zorder>lineEdit</zorder>
+   <zorder>label_4</zorder>
+   <zorder>lineEdit_2</zorder>
+   <zorder>label_5</zorder>
+   <zorder>lineEdit_3</zorder>
+   <zorder>label_6</zorder>
+   <zorder>label_7</zorder>
+   <zorder>label_9</zorder>
+   <zorder>label_10</zorder>
+   <zorder>label_11</zorder>
+   <zorder>label_12</zorder>
+   <zorder>label_13</zorder>
+   <zorder>label_14</zorder>
+   <zorder>label_8</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

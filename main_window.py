@@ -83,6 +83,7 @@ class Ui_MainWindow(object):
         self.pushButton.setIcon(icon)
         self.pushButton.setIconSize(QSize(40, 40))
         self.pushButton.setAutoDefault(False)
+        self.pushButton.setFlat(True)
         self.pushButton_2 = QPushButton(self.centralwidget)
         self.pushButton_2.setObjectName(u"pushButton_2")
         self.pushButton_2.setGeometry(QRect(0, 803, 338, 121))
@@ -126,9 +127,11 @@ class Ui_MainWindow(object):
         self.pushButton_2.setChecked(False)
         self.pushButton_2.setAutoRepeat(False)
         self.pushButton_2.setAutoExclusive(False)
+        self.pushButton_2.setAutoDefault(True)
+        self.pushButton_2.setFlat(True)
         self.pushButton_3 = QPushButton(self.centralwidget)
         self.pushButton_3.setObjectName(u"pushButton_3")
-        self.pushButton_3.setGeometry(QRect(0, 253, 338, 65))
+        self.pushButton_3.setGeometry(QRect(0, 253, 0, 0))
         self.pushButton_3.setStyleSheet(u"/* Rectangle 6 */\n"
 "\n"
 "position: absolute;\n"
@@ -161,6 +164,7 @@ class Ui_MainWindow(object):
         icon2.addFile(u":/fon/resurce/\u0421\u043e\u0437\u0434\u0430\u043d\u043d\u044b\u0438\u0306_\u043f\u0440\u043e\u0435\u043a\u0442_\u041c\u043e\u043d\u0442\u0430\u0436\u043d\u0430\u044f_\u043e\u0431\u043b\u0430\u0441\u0442\u044c_1.svg", QSize(), QIcon.Normal, QIcon.Off)
         self.pushButton_3.setIcon(icon2)
         self.pushButton_3.setIconSize(QSize(40, 40))
+        self.pushButton_3.setFlat(True)
         self.pushButton_9 = QPushButton(self.centralwidget)
         self.pushButton_9.setObjectName(u"pushButton_9")
         self.pushButton_9.setGeometry(QRect(479, 767, 700, 98))
@@ -434,6 +438,234 @@ class Ui_MainWindow(object):
 "\n"
 "color: #FFFFFF;")
         self.label_14.setWordWrap(True)
+        self.pushButton_4 = QPushButton(self.centralwidget)
+        self.pushButton_4.setObjectName(u"pushButton_4")
+        self.pushButton_4.setGeometry(QRect(0, 340, 0, 0))
+        self.pushButton_4.setStyleSheet(u"/* Rectangle 6 */\n"
+"\n"
+"position: absolute;\n"
+"width: 338px;\n"
+"height: 104px;\n"
+"left: 0px;\n"
+"top: 810px;\n"
+"\n"
+"background: #009158;\n"
+"/* \u0421\u0432\u044f\u0437\u0430\u0442\u044c\u0441\u044f \u0441 \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a\u0430\u043c\u0438 */\n"
+"\n"
+"position: absolute;\n"
+"width: 330px;\n"
+"height: 74px;\n"
+"left: 8px;\n"
+"top: 818px;\n"
+"\n"
+"font-family: 'Inter';\n"
+"font-style: normal;\n"
+"font-weight: 400;\n"
+"font-size: 27px;\n"
+"line-height: 33px;\n"
+"text-align: center;\n"
+"\n"
+"color: #FFFFFF;\n"
+"\n"
+"\n"
+"")
+        self.pushButton_4.setIcon(icon2)
+        self.pushButton_4.setIconSize(QSize(40, 40))
+        self.pushButton_4.setFlat(True)
+        self.pushButton_5 = QPushButton(self.centralwidget)
+        self.pushButton_5.setObjectName(u"pushButton_5")
+        self.pushButton_5.setGeometry(QRect(0, 420, 0, 0))
+        self.pushButton_5.setStyleSheet(u"/* Rectangle 6 */\n"
+"\n"
+"position: absolute;\n"
+"width: 338px;\n"
+"height: 104px;\n"
+"left: 0px;\n"
+"top: 810px;\n"
+"\n"
+"background: #009158;\n"
+"/* \u0421\u0432\u044f\u0437\u0430\u0442\u044c\u0441\u044f \u0441 \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a\u0430\u043c\u0438 */\n"
+"\n"
+"position: absolute;\n"
+"width: 330px;\n"
+"height: 74px;\n"
+"left: 8px;\n"
+"top: 818px;\n"
+"\n"
+"font-family: 'Inter';\n"
+"font-style: normal;\n"
+"font-weight: 400;\n"
+"font-size: 27px;\n"
+"line-height: 33px;\n"
+"text-align: center;\n"
+"\n"
+"color: #FFFFFF;\n"
+"\n"
+"\n"
+"")
+        self.pushButton_5.setIcon(icon2)
+        self.pushButton_5.setIconSize(QSize(40, 40))
+        self.pushButton_5.setFlat(True)
+        self.pushButton_6 = QPushButton(self.centralwidget)
+        self.pushButton_6.setObjectName(u"pushButton_6")
+        self.pushButton_6.setGeometry(QRect(0, 510, 0, 0))
+        self.pushButton_6.setStyleSheet(u"/* Rectangle 6 */\n"
+"\n"
+"position: absolute;\n"
+"width: 338px;\n"
+"height: 104px;\n"
+"left: 0px;\n"
+"top: 810px;\n"
+"\n"
+"background: #009158;\n"
+"/* \u0421\u0432\u044f\u0437\u0430\u0442\u044c\u0441\u044f \u0441 \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a\u0430\u043c\u0438 */\n"
+"\n"
+"position: absolute;\n"
+"width: 330px;\n"
+"height: 74px;\n"
+"left: 8px;\n"
+"top: 818px;\n"
+"\n"
+"font-family: 'Inter';\n"
+"font-style: normal;\n"
+"font-weight: 400;\n"
+"font-size: 27px;\n"
+"line-height: 33px;\n"
+"text-align: center;\n"
+"\n"
+"color: #FFFFFF;\n"
+"\n"
+"\n"
+"")
+        self.pushButton_6.setIcon(icon2)
+        self.pushButton_6.setIconSize(QSize(40, 40))
+        self.pushButton_6.setFlat(True)
+        self.pushButton_7 = QPushButton(self.centralwidget)
+        self.pushButton_7.setObjectName(u"pushButton_7")
+        self.pushButton_7.setGeometry(QRect(0, 610, 0, 0))
+        self.pushButton_7.setStyleSheet(u"/* Rectangle 6 */\n"
+"\n"
+"position: absolute;\n"
+"width: 338px;\n"
+"height: 104px;\n"
+"left: 0px;\n"
+"top: 810px;\n"
+"\n"
+"background: #009158;\n"
+"/* \u0421\u0432\u044f\u0437\u0430\u0442\u044c\u0441\u044f \u0441 \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a\u0430\u043c\u0438 */\n"
+"\n"
+"position: absolute;\n"
+"width: 330px;\n"
+"height: 74px;\n"
+"left: 8px;\n"
+"top: 818px;\n"
+"\n"
+"font-family: 'Inter';\n"
+"font-style: normal;\n"
+"font-weight: 400;\n"
+"font-size: 27px;\n"
+"line-height: 33px;\n"
+"text-align: center;\n"
+"\n"
+"color: #FFFFFF;\n"
+"\n"
+"\n"
+"")
+        self.pushButton_7.setIcon(icon2)
+        self.pushButton_7.setIconSize(QSize(40, 40))
+        self.pushButton_7.setFlat(True)
+        self.pushButton_10 = QPushButton(self.centralwidget)
+        self.pushButton_10.setObjectName(u"pushButton_10")
+        self.pushButton_10.setGeometry(QRect(480, 770, 700, 98))
+        self.pushButton_10.setStyleSheet(u"/* Button */\n"
+"\n"
+"position: absolute;\n"
+"width: 700px;\n"
+"height: 98px;\n"
+"left: 479px;\n"
+"top: 767px;\n"
+"\n"
+"\n"
+"\n"
+"/* Rectangle 1 */\n"
+"\n"
+"box-sizing: border-box;\n"
+"\n"
+"position: absolute;\n"
+"width: 700px;\n"
+"height: 98px;\n"
+"left: calc(50% - 700px/2 + 171.5px);\n"
+"top: 767px;\n"
+"\n"
+"background: #009158;\n"
+"box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);\n"
+"border-radius: 13px;\n"
+"\n"
+"\n"
+"/* \u0420\u0430\u0441\u0441\u0447\u0438\u0442\u0430\u0442\u044c */\n"
+"\n"
+"position: absolute;\n"
+"width: 353px;\n"
+"height: 46px;\n"
+"left: 695px;\n"
+"top: 791px;\n"
+"\n"
+"font-family: 'Inter';\n"
+"font-style: normal;\n"
+"font-weight: 400;\n"
+"font-size: 44px;\n"
+"line-height: 53px;\n"
+"text-align: center;\n"
+"\n"
+"color: #FFFFFF;\n"
+"\n"
+"")
+        self.pushButton_11 = QPushButton(self.centralwidget)
+        self.pushButton_11.setObjectName(u"pushButton_11")
+        self.pushButton_11.setGeometry(QRect(480, 770, 700, 98))
+        self.pushButton_11.setStyleSheet(u"/* Button */\n"
+"\n"
+"position: absolute;\n"
+"width: 700px;\n"
+"height: 98px;\n"
+"left: 479px;\n"
+"top: 767px;\n"
+"\n"
+"\n"
+"\n"
+"/* Rectangle 1 */\n"
+"\n"
+"box-sizing: border-box;\n"
+"\n"
+"position: absolute;\n"
+"width: 700px;\n"
+"height: 98px;\n"
+"left: calc(50% - 700px/2 + 171.5px);\n"
+"top: 767px;\n"
+"\n"
+"background: #009158;\n"
+"box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);\n"
+"border-radius: 13px;\n"
+"\n"
+"\n"
+"/* \u0420\u0430\u0441\u0441\u0447\u0438\u0442\u0430\u0442\u044c */\n"
+"\n"
+"position: absolute;\n"
+"width: 353px;\n"
+"height: 46px;\n"
+"left: 695px;\n"
+"top: 791px;\n"
+"\n"
+"font-family: 'Inter';\n"
+"font-style: normal;\n"
+"font-weight: 400;\n"
+"font-size: 44px;\n"
+"line-height: 53px;\n"
+"text-align: center;\n"
+"\n"
+"color: #FFFFFF;\n"
+"\n"
+"")
         MainWindow.setCentralWidget(self.centralwidget)
         self.label.raise_()
         self.label_2.raise_()
@@ -456,8 +688,17 @@ class Ui_MainWindow(object):
         self.label_13.raise_()
         self.label_14.raise_()
         self.label_8.raise_()
+        self.pushButton_4.raise_()
+        self.pushButton_5.raise_()
+        self.pushButton_6.raise_()
+        self.pushButton_7.raise_()
+        self.pushButton_10.raise_()
+        self.pushButton_11.raise_()
 
         self.retranslateUi(MainWindow)
+
+        self.pushButton_2.setDefault(False)
+
 
         QMetaObject.connectSlotsByName(MainWindow)
     # setupUi
@@ -486,5 +727,11 @@ class Ui_MainWindow(object):
         self.label_13.setText(QCoreApplication.translate("MainWindow", u"\u0412\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \u043c\u0435\u0441\u0442 \u043f\u0440\u043e\u0438\u0437\u0440\u0430\u0441\u0442\u0430\u043d\u0438\u044f \u043b\u0438\u0448\u0430\u0439\u043d\u0438\u043a\u043e\u0432\u044b\u0445 \u0444\u043e\u0440\u043c \n"
 "\u0440\u0430\u0441\u0442\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u0438", None))
         self.label_14.setText(QCoreApplication.translate("MainWindow", u"\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u0434\u043b\u044f \u0440\u0435\u043a\u0443\u043b\u044c\u0442\u0438\u0432\u0430\u0446\u0438\u0438 \u043d\u0430\u0440\u0443\u0448\u0435\u043d\u043d\u044b\u0445 \u0437\u0435\u043c\u0435\u043b\u044c", None))
+        self.pushButton_4.setText(QCoreApplication.translate("MainWindow", u"PushButton", None))
+        self.pushButton_5.setText(QCoreApplication.translate("MainWindow", u"PushButton", None))
+        self.pushButton_6.setText(QCoreApplication.translate("MainWindow", u"PushButton", None))
+        self.pushButton_7.setText(QCoreApplication.translate("MainWindow", u"PushButton", None))
+        self.pushButton_10.setText(QCoreApplication.translate("MainWindow", u"\u0414\u0430\u043b\u0435\u0435", None))
+        self.pushButton_11.setText(QCoreApplication.translate("MainWindow", u"\u0414\u0430\u043b\u0435\u0435", None))
     # retranslateUi
 

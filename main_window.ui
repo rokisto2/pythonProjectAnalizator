@@ -122,6 +122,9 @@ color: #FFFFFF;
     <property name="autoDefault">
      <bool>false</bool>
     </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
@@ -189,14 +192,23 @@ color: #FFFFFF;
     <property name="autoExclusive">
      <bool>false</bool>
     </property>
+    <property name="autoDefault">
+     <bool>true</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QPushButton" name="pushButton_3">
     <property name="geometry">
      <rect>
       <x>0</x>
       <y>253</y>
-      <width>338</width>
-      <height>65</height>
+      <width>0</width>
+      <height>0</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -241,6 +253,9 @@ color: #FFFFFF;
       <width>40</width>
       <height>40</height>
      </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_9">
@@ -739,6 +754,346 @@ color: #FFFFFF;</string>
      <bool>true</bool>
     </property>
    </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>340</y>
+      <width>0</width>
+      <height>0</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* Rectangle 6 */
+
+position: absolute;
+width: 338px;
+height: 104px;
+left: 0px;
+top: 810px;
+
+background: #009158;
+/* Связаться с разработчиками */
+
+position: absolute;
+width: 330px;
+height: 74px;
+left: 8px;
+top: 818px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 33px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/fon/resurce/Созданный_проект_Монтажная_область_1.svg</normaloff>:/fon/resurce/Созданный_проект_Монтажная_область_1.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>420</y>
+      <width>0</width>
+      <height>0</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* Rectangle 6 */
+
+position: absolute;
+width: 338px;
+height: 104px;
+left: 0px;
+top: 810px;
+
+background: #009158;
+/* Связаться с разработчиками */
+
+position: absolute;
+width: 330px;
+height: 74px;
+left: 8px;
+top: 818px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 33px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/fon/resurce/Созданный_проект_Монтажная_область_1.svg</normaloff>:/fon/resurce/Созданный_проект_Монтажная_область_1.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>510</y>
+      <width>0</width>
+      <height>0</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* Rectangle 6 */
+
+position: absolute;
+width: 338px;
+height: 104px;
+left: 0px;
+top: 810px;
+
+background: #009158;
+/* Связаться с разработчиками */
+
+position: absolute;
+width: 330px;
+height: 74px;
+left: 8px;
+top: 818px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 33px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/fon/resurce/Созданный_проект_Монтажная_область_1.svg</normaloff>:/fon/resurce/Созданный_проект_Монтажная_область_1.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>610</y>
+      <width>0</width>
+      <height>0</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* Rectangle 6 */
+
+position: absolute;
+width: 338px;
+height: 104px;
+left: 0px;
+top: 810px;
+
+background: #009158;
+/* Связаться с разработчиками */
+
+position: absolute;
+width: 330px;
+height: 74px;
+left: 8px;
+top: 818px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 33px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/fon/resurce/Созданный_проект_Монтажная_область_1.svg</normaloff>:/fon/resurce/Созданный_проект_Монтажная_область_1.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_10">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>770</y>
+      <width>700</width>
+      <height>98</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* Button */
+
+position: absolute;
+width: 700px;
+height: 98px;
+left: 479px;
+top: 767px;
+
+
+
+/* Rectangle 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 700px;
+height: 98px;
+left: calc(50% - 700px/2 + 171.5px);
+top: 767px;
+
+background: #009158;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 13px;
+
+
+/* Рассчитать */
+
+position: absolute;
+width: 353px;
+height: 46px;
+left: 695px;
+top: 791px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 44px;
+line-height: 53px;
+text-align: center;
+
+color: #FFFFFF;
+
+</string>
+    </property>
+    <property name="text">
+     <string>Далее</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_11">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>770</y>
+      <width>700</width>
+      <height>98</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* Button */
+
+position: absolute;
+width: 700px;
+height: 98px;
+left: 479px;
+top: 767px;
+
+
+
+/* Rectangle 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 700px;
+height: 98px;
+left: calc(50% - 700px/2 + 171.5px);
+top: 767px;
+
+background: #009158;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 13px;
+
+
+/* Рассчитать */
+
+position: absolute;
+width: 353px;
+height: 46px;
+left: 695px;
+top: 791px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 44px;
+line-height: 53px;
+text-align: center;
+
+color: #FFFFFF;
+
+</string>
+    </property>
+    <property name="text">
+     <string>Далее</string>
+    </property>
+   </widget>
    <zorder>label</zorder>
    <zorder>label_2</zorder>
    <zorder>pushButton</zorder>
@@ -760,6 +1115,12 @@ color: #FFFFFF;</string>
    <zorder>label_13</zorder>
    <zorder>label_14</zorder>
    <zorder>label_8</zorder>
+   <zorder>pushButton_4</zorder>
+   <zorder>pushButton_5</zorder>
+   <zorder>pushButton_6</zorder>
+   <zorder>pushButton_7</zorder>
+   <zorder>pushButton_10</zorder>
+   <zorder>pushButton_11</zorder>
   </widget>
  </widget>
  <resources>

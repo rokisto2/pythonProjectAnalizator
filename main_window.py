@@ -84,51 +84,6 @@ class Ui_MainWindow(object):
         self.pushButton.setIconSize(QSize(40, 40))
         self.pushButton.setAutoDefault(False)
         self.pushButton.setFlat(True)
-        self.pushButton_2 = QPushButton(self.centralwidget)
-        self.pushButton_2.setObjectName(u"pushButton_2")
-        self.pushButton_2.setGeometry(QRect(0, 803, 338, 121))
-        font = QFont()
-        font.setFamilies([u"Inter"])
-        font.setBold(False)
-        font.setItalic(False)
-        self.pushButton_2.setFont(font)
-        self.pushButton_2.setStyleSheet(u"/* Rectangle 6 */\n"
-"\n"
-"position: absolute;\n"
-"width: 338px;\n"
-"height: 104px;\n"
-"left: 0px;\n"
-"top: 810px;\n"
-"\n"
-"background: #009158;\n"
-"/* \u0421\u0432\u044f\u0437\u0430\u0442\u044c\u0441\u044f \u0441 \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a\u0430\u043c\u0438 */\n"
-"\n"
-"position: absolute;\n"
-"width: 330px;\n"
-"height: 74px;\n"
-"left: 8px;\n"
-"top: 818px;\n"
-"\n"
-"font-family: 'Inter';\n"
-"font-style: normal;\n"
-"font-weight: 400;\n"
-"font-size: 27px;\n"
-"line-height: 33px;\n"
-"text-align: center;\n"
-"\n"
-"color: #FFFFFF;\n"
-"\n"
-"\n"
-"")
-        icon1 = QIcon()
-        icon1.addFile(u":/fon/resurce/\u041d\u0430\u043f\u0438\u0441\u0430\u0442\u044c \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a\u0443.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.pushButton_2.setIcon(icon1)
-        self.pushButton_2.setCheckable(False)
-        self.pushButton_2.setChecked(False)
-        self.pushButton_2.setAutoRepeat(False)
-        self.pushButton_2.setAutoExclusive(False)
-        self.pushButton_2.setAutoDefault(True)
-        self.pushButton_2.setFlat(True)
         self.pushButton_3 = QPushButton(self.centralwidget)
         self.pushButton_3.setObjectName(u"pushButton_3")
         self.pushButton_3.setGeometry(QRect(0, 253, 0, 0))
@@ -160,9 +115,9 @@ class Ui_MainWindow(object):
 "\n"
 "\n"
 "")
-        icon2 = QIcon()
-        icon2.addFile(u":/fon/resurce/\u0421\u043e\u0437\u0434\u0430\u043d\u043d\u044b\u0438\u0306_\u043f\u0440\u043e\u0435\u043a\u0442_\u041c\u043e\u043d\u0442\u0430\u0436\u043d\u0430\u044f_\u043e\u0431\u043b\u0430\u0441\u0442\u044c_1.svg", QSize(), QIcon.Normal, QIcon.Off)
-        self.pushButton_3.setIcon(icon2)
+        icon1 = QIcon()
+        icon1.addFile(u":/fon/resurce/\u0421\u043e\u0437\u0434\u0430\u043d\u043d\u044b\u0438\u0306_\u043f\u0440\u043e\u0435\u043a\u0442_\u041c\u043e\u043d\u0442\u0430\u0436\u043d\u0430\u044f_\u043e\u0431\u043b\u0430\u0441\u0442\u044c_1.svg", QSize(), QIcon.Normal, QIcon.Off)
+        self.pushButton_3.setIcon(icon1)
         self.pushButton_3.setIconSize(QSize(40, 40))
         self.pushButton_3.setFlat(True)
         self.pushButton_9 = QPushButton(self.centralwidget)
@@ -469,7 +424,7 @@ class Ui_MainWindow(object):
 "\n"
 "\n"
 "")
-        self.pushButton_4.setIcon(icon2)
+        self.pushButton_4.setIcon(icon1)
         self.pushButton_4.setIconSize(QSize(40, 40))
         self.pushButton_4.setFlat(True)
         self.pushButton_5 = QPushButton(self.centralwidget)
@@ -503,7 +458,7 @@ class Ui_MainWindow(object):
 "\n"
 "\n"
 "")
-        self.pushButton_5.setIcon(icon2)
+        self.pushButton_5.setIcon(icon1)
         self.pushButton_5.setIconSize(QSize(40, 40))
         self.pushButton_5.setFlat(True)
         self.pushButton_6 = QPushButton(self.centralwidget)
@@ -537,7 +492,7 @@ class Ui_MainWindow(object):
 "\n"
 "\n"
 "")
-        self.pushButton_6.setIcon(icon2)
+        self.pushButton_6.setIcon(icon1)
         self.pushButton_6.setIconSize(QSize(40, 40))
         self.pushButton_6.setFlat(True)
         self.pushButton_7 = QPushButton(self.centralwidget)
@@ -571,7 +526,7 @@ class Ui_MainWindow(object):
 "\n"
 "\n"
 "")
-        self.pushButton_7.setIcon(icon2)
+        self.pushButton_7.setIcon(icon1)
         self.pushButton_7.setIconSize(QSize(40, 40))
         self.pushButton_7.setFlat(True)
         self.pushButton_10 = QPushButton(self.centralwidget)
@@ -670,7 +625,6 @@ class Ui_MainWindow(object):
         self.label.raise_()
         self.label_2.raise_()
         self.pushButton.raise_()
-        self.pushButton_2.raise_()
         self.pushButton_3.raise_()
         self.pushButton_9.raise_()
         self.label_3.raise_()
@@ -697,9 +651,6 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
 
-        self.pushButton_2.setDefault(False)
-
-
         QMetaObject.connectSlotsByName(MainWindow)
     # setupUi
 
@@ -708,7 +659,6 @@ class Ui_MainWindow(object):
         self.label.setText("")
         self.label_2.setText("")
         self.pushButton.setText(QCoreApplication.translate("MainWindow", u"\u0421\u043e\u0437\u0434\u0430\u0442\u044c \u043f\u0440\u043e\u0435\u043a\u0442", None))
-        self.pushButton_2.setText(QCoreApplication.translate("MainWindow", u"\u0421\u0432\u044f\u0437\u0430\u0442\u044c\u0441\u044f \u0441 \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a\u0430\u043c\u0438", None))
         self.pushButton_3.setText(QCoreApplication.translate("MainWindow", u"PushButton", None))
         self.pushButton_9.setText(QCoreApplication.translate("MainWindow", u"\u0414\u0430\u043b\u0435\u0435", None))
         self.label_3.setText(QCoreApplication.translate("MainWindow", u"\u041a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u0441\u043e\u0441\u0435\u043d \u0432\u044b\u0448\u0435 2,5 \u043c\u0435\u0442\u0440\u043e\u0432 \u0432 \u0432\u044b\u0441\u043e\u0442\u0443", None))

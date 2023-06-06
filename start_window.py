@@ -82,6 +82,7 @@ class Ui_MainWindow(object):
 "\n"
 "")
         self.label_2.setAlignment(Qt.AlignLeading|Qt.AlignLeft|Qt.AlignTop)
+        self.label_2.setWordWrap(True)
         self.pushButton = QPushButton(self.centralwidget)
         self.pushButton.setObjectName(u"pushButton")
         self.pushButton.setGeometry(QRect(307, 767, 700, 98))

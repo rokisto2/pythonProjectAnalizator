@@ -38,7 +38,7 @@ class Сalculator:
         self.sosnaGirth = girth
         self.sosnaArea = girth / 3.14 * count * height  # расчет обьема
         self.sosnaSum = self.sosnaStake * self.sosnaArea  # расчет ценны
-        print(self.sosnaSum)
+
 
 
     # рассчет сумм лиственниц
@@ -56,7 +56,7 @@ class Сalculator:
         self.pixtGirth = girth
         self.pixtArea = girth / 3.14 * count * height  # расчет обьема
         self.pixtSum = self.pixtArea * self.pixtStake  # расчет ценны
-
+        print(self.pixtSum)
     # рассчет сумм дубов, ясеней и клёнов
     def addDub(self, count, height, girth):
         self.dubCount = count
@@ -128,7 +128,8 @@ class Сalculator:
         self.soilSum = self.soilArea * self.soilStake  # расчет ценны
 
     def calculate(self):  # рассчет всех сумм для вывода
-        self.sum = self.sosnaSum + self.lichenSum + self.pixtSum + self.dubSum + self.bukSum + self.berezSum + self.lipSum + self.topolSum + self.otherTreesSum25 + self.otherTreesSum125 + self.otherTreesSum + self.lichenSum + self.treeSum + self.soilSum
+        print(self.sosnaSum , self.larchesSum , self.pixtSum, self.dubSum , self.bukSum ,self.berezSum , self.lipSum , self.topolSum , self.otherTreesSum25 , self.otherTreesSum125 , self.otherTreesSum , self.lichenSum , self.treeSum , self.soilSum)
+        self.sum = self.sosnaSum + self.larchesSum + self.pixtSum + self.dubSum + self.bukSum + self.berezSum + self.lipSum + self.topolSum + self.otherTreesSum25 + self.otherTreesSum125 + self.otherTreesSum + self.lichenSum + self.treeSum + self.soilSum
         self.sumTree = self.treeSum + self.sosnaSum + self.lichenSum + self.pixtSum + self.dubSum + self.bukSum + self.berezSum + self.lipSum + self.topolSum + self.otherTreesSum25 + self.otherTreesSum125 + self.otherTreesSum
         self.sumTree125 = self.otherTreesSum125
         self.sumTree1 = self.otherTreesSum
@@ -137,5 +138,5 @@ class Сalculator:
         self.recoverySoil = self.soilSum
 
     def get_project(self):
-        return [self.sum, self.sumTree, self.sumTree125, self.sumTree1, self.recovery, self.recoveryLichen,
-                self.recoverySoil]
+        return [int(self.sum), int(self.sumTree), int(self.sumTree125), int(self.sumTree1), int(self.recovery), int(self.recoveryLichen),
+                int(self.recoverySoil)]

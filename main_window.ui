@@ -126,82 +126,6 @@ color: #FFFFFF;
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>803</y>
-      <width>338</width>
-      <height>121</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Inter</family>
-      <pointsize>-1</pointsize>
-      <italic>false</italic>
-      <bold>false</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">/* Rectangle 6 */
-
-position: absolute;
-width: 338px;
-height: 104px;
-left: 0px;
-top: 810px;
-
-background: #009158;
-/* Связаться с разработчиками */
-
-position: absolute;
-width: 330px;
-height: 74px;
-left: 8px;
-top: 818px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 27px;
-line-height: 33px;
-text-align: center;
-
-color: #FFFFFF;
-
-
-</string>
-    </property>
-    <property name="text">
-     <string>Связаться с разработчиками</string>
-    </property>
-    <property name="icon">
-     <iconset resource="res.qrc">
-      <normaloff>:/fon/resurce/Написать разработчику.svg</normaloff>:/fon/resurce/Написать разработчику.svg</iconset>
-    </property>
-    <property name="checkable">
-     <bool>false</bool>
-    </property>
-    <property name="checked">
-     <bool>false</bool>
-    </property>
-    <property name="autoRepeat">
-     <bool>false</bool>
-    </property>
-    <property name="autoExclusive">
-     <bool>false</bool>
-    </property>
-    <property name="autoDefault">
-     <bool>true</bool>
-    </property>
-    <property name="default">
-     <bool>false</bool>
-    </property>
-    <property name="flat">
-     <bool>true</bool>
-    </property>
-   </widget>
    <widget class="QPushButton" name="pushButton_3">
     <property name="geometry">
      <rect>
@@ -1097,7 +1021,6 @@ color: #FFFFFF;
    <zorder>label</zorder>
    <zorder>label_2</zorder>
    <zorder>pushButton</zorder>
-   <zorder>pushButton_2</zorder>
    <zorder>pushButton_3</zorder>
    <zorder>pushButton_9</zorder>
    <zorder>label_3</zorder>
